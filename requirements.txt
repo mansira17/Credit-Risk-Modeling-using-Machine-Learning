@@ -1,5 +1,5 @@
 joblib
-sklean
+sklearn
 numpy
 pandas
 streamlit
