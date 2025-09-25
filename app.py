@@ -19,7 +19,13 @@ import joblib
 # In[3]:
 
 
-model = joblib.load('xgb_model.pkl')
+# model = joblib.load('xgb_model.pkl')
+
+from xgboost import XGBClassifier
+
+model = XGBClassifier()
+model.load_model("xgb_model.json")
+
 
 
 # In[5]:
