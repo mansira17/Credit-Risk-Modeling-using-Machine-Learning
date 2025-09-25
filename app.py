@@ -38,7 +38,7 @@ encoders = {col: joblib.load(f'{col}_encoder.pkl') for col in ['Sex', 'Housing',
 
 
 st.title('Credit Risk Prediction App')
-st.write('Enter the applicant information to predict if the credit risk is good or bad')
+st.write('Enter the applicant information to predict if the credit risk is good or bad: ')
 
 
 # In[10]:
