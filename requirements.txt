@@ -6,3 +6,4 @@ streamlit
 optuna
 matplotlib
 seaborn
+xgboost
